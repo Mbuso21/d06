@@ -6,7 +6,7 @@
 /*   By: mmehloma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/22 11:18:06 by mmehloma          #+#    #+#             */
-/*   Updated: 2020/06/25 15:47:56 by mmehloma         ###   ########.fr       */
+/*   Updated: 2020/06/26 12:29:04 by mmehloma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,10 +34,4 @@ void ft_putnbr(int nb)
 		ft_putnbr(nb* -1);
 	}
 
-}
-
-int main(void)
-{
-	ft_putnbr(50);
-	return 0;
 }

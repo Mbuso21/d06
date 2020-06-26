@@ -6,27 +6,26 @@
 /*   By: mmehloma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/24 08:18:48 by mmehloma          #+#    #+#             */
-/*   Updated: 2020/06/24 08:39:04 by mmehloma         ###   ########.fr       */
+/*   Updated: 2020/06/26 15:21:02 by mmehloma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putchar(char a)
-{
-	write(1, &a, 1);
-}
 
 void ft_putstr(char *str)
 {
 	int b;
 	b = 0;
-	while(str[b])
+	while(str[b] != '\0')
 	{
 		write(1, &str[b], 1);
 		b++;
 	}
 }
-
-
+/*int main(void)
+{
+	ft_putstr("Hello");
+	return 0;
+}*/
 

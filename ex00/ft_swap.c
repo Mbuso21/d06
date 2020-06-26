@@ -6,11 +6,9 @@
 /*   By: mmehloma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/24 08:17:44 by mmehloma          #+#    #+#             */
-/*   Updated: 2020/06/25 14:27:50 by mmehloma         ###   ########.fr       */
+/*   Updated: 2020/06/26 15:48:09 by mmehloma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <
-
 void ft_swap(int *a, int *b)
 {
 	int c;
@@ -19,12 +17,4 @@ void ft_swap(int *a, int *b)
 	*a = *b;
 	*b = c;
 
-	printf("%d", b, a);
-}
-
-int main(void)
-{
-	int n;
-	ft_swap(2, 3);	
-	return 0;
 }
